@@ -15,7 +15,8 @@ var removeVowels = function(S) {
     return string;
 };
 
-removeVowels("leetcodeisacommunityforcoders");
+const response = removeVowels("leetcodeisacommunityforcoders");
+console.log((response));
 // "ltcdscmmntyfrcdrs"
 
 // O(1), O(1)
